@@ -108,4 +108,26 @@ h4 {
     min-height: 100%;
 }
 
-
+#product {
+        background-image: url(pictures/vines_m.jpg);
+    }    
+    
+#review {
+    background-image: url('pictures/trees_m.jpg');
+    }
+    
+#miljø {
+    background-image: url('pictures/primrose_m.jpg');
+    }
+    
+#gb {
+    background-image: url('pictures/sapling_m.jpg');
+    }
+    
+}
+@media screen and (min-width: 1440px) {    
+    
+body {
+    max-width: 1920px; margin: 0 auto; 
+    }
+}
