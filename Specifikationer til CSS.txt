@@ -1,0 +1,8 @@
+Specifikationer til CSS:
+
+Skrifttype: Bakersville
+Skriftstørrelse: 16px
+
+Skriftfarve - primær (mørkegrøn):#046C44
+Skriftfarve - sekundær (lysegrøn): #7DCC54
+Baggrundsfarve: #E5E4E1

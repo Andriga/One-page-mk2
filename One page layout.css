@@ -5,6 +5,7 @@ body {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
     max-width: 1000px; margin: 0 auto; 
+    height: 100%;
 }
 
 
@@ -42,6 +43,12 @@ h4 {
     margin-top: 5.1em;
     margin-bottom: 0.8em;
     font-size: 1.2em;
+    background-image: url('pictures/vines_s.jpg');
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #review{
@@ -50,6 +57,12 @@ h4 {
     padding-right: 1.4em;
     margin-bottom: 0.88em;
     font-size: 1.2em;
+    background-image: url('pictures/trees_s.jpg');
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #miljø{
@@ -58,6 +71,12 @@ h4 {
     padding-right: 1.4em;
     margin-bottom: 0.8em;
     font-size: 1.2em;
+    background-image: url('pictures/primrose_s.jpg');
+    min-height: 100%;
+    min-width: 100%;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #gb{
@@ -66,6 +85,12 @@ h4 {
     padding-right: 1.4em;
     margin-bottom: 0.8em;
     font-size: 1.2em;
+    background-image: url('pictures/sapling_s.jpg');
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* footer{
