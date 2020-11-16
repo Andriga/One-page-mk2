@@ -1,16 +1,3 @@
-html {
-    height: 100%;
-}
-
-:root {
-  --background: #1471b6;
-}
-
-*, *::before, *::after {
-  box-sizing: border-box;
-    
-}
-
 body {
     margin: 0;
 	background: #e5e4e1;
@@ -41,10 +28,10 @@ h4 {
 
 .body {
     height: 100%;
-    background-color: #333;
+    background-color: #e5e4e1;
     background-blend-mode: multiply;
     background-size: cover;
-    color: #fff;
+    color: #046C44;
     display: grid;
     place-items: left;
 }
@@ -106,277 +93,18 @@ h4 {
     background-size: cover;
 }
 
-.stepimg {
-    max-width: 80%;
-    max-height: 80%;
-    min-width: 300px;
-    min-height: 300px;
-}
-
-footer{
+/* footer{
     font-size: 1em;
     text-align: right;
-    background-color: #1471b6;
-    color: #fff;
+    background-color: ;
+    color: #046C44;
     padding: 0.1em;
     padding-right: 1.2em;
     clear: both;
     position: relative;
-}
+} */
 
 .wrapper {
     min-height: 100%;
 }
 
-/* navigation styles start here */
-
-header {
-    background: var(--background);
-    text-align: center;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    max-width: 974px; margin: 0 auto;
-}
-
-.nav-toggle {
-    position: absolute !important;
-    top: -9999px !important;
-    left: -9999px !important;
-}
-
-.nav-toggle:focus ~ .nav-toggle-label {
-    outline: 3px solid rgba(lightblue, .75);
-}
-
-.nav-toggle-label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 1em;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after{
-    display: block;
-    background: white;
-    height: 2px;
-    width: 2em;
-    border-radius: 2px;
-    position: relative;
-}
-
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-    content: '';
-    position: absolute;
-}
-
-.nav-toggle-label span::before {
-    bottom: 7px;
-}
-
-.nav-toggle-label span::after {
-    top: 7px;
-}
-
-nav {
-    position: absolute;
-    text-align: left;
-    top: 100%;
-    left: 0;
-    background: var(--background);
-    width: 100%;
-    transform: scale(1, 0);
-    transform-origin: top;
-    transition: transform 400ms ease-in-out;
-}
-
-nav a {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav a {
-    margin-bottom: 1em;
-    margin-left: 1em;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    text-transform: uppercase;
-    opacity: 0;
-    transition: opacity 150ms ease-in-out;
-}
-
-nav a:hover {
-    color: #fc824d;
-}
-
-.nav-toggle:checked ~ nav {
-    transform: scale(1,1);
-}
-
-.nav-toggle:checked ~ nav a {
-    opacity: 1;
-    transition: opacity 250ms ease-in-out 250ms;
-}
-
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    background-color: white;
-}
-
-.popup p {
-    margin: 10px;
-    color: red;
-    font-weight: bold;
-}
-
-/* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-}
-
-@media screen and (min-width: 375px) {
-  .nav-toggle-label {
-    display: none;
-  }
-
-header {
-    display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-  }
-  
-.logo {
-    color: #fff;
-    grid-column: 2 / 3;
-  }
-  
-body {
-    max-width: 1440px; margin: 0 auto; 
-    }    
-    
-  nav {
-    // all: unset; /* this causes issues with Edge, since it's unsupported */
-    
-    position: relative;
-    text-align: left;
-    transition: none;
-    transform: scale(1,1);
-    background: none;
-    top: initial;
-    left: initial;
-    /* end Edge support stuff */
-    
-    grid-column: 3 / 6;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  nav a {
-    display: flex;
-  }
-  
-  nav a {
-    margin-left: 3em;
-    margin-bottom: 0;
-  }
-  
-  nav a {
-    opacity: 1;
-    position: relative;
-  }
-  
-  nav a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background: #fc824d;
-    position: absolute;
-    top: -.75em;
-    left: 0;
-    right: 0;
-    transform: scale(0, 1);
-    transition: transform ease-in-out 250ms;
-  }
-  
-  nav a:hover::before {
-    transform: scale(1,1);
-  }
- 
-    #product {
-        background-image: url(pictures/vines_m.jpg);
-    }    
-    
-#review {
-    background-image: url('pictures/trees_m.jpg');
-    }
-    
-#miljø {
-    background-image: url('pictures/primrose_m.jpg');
-    }
-    
-#gb {
-    background-image: url('pictures/sapling_m.jpg');
-    }
-    
-}
-
-@media screen and (min-width: 1440px) {    
-    
-body {
-    max-width: 1920px; margin: 0 auto; 
-    }
-}
