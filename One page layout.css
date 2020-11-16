@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 :root {
   --background: #1471b6;
 }
@@ -14,6 +18,7 @@ body {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
     max-width: 1000px; margin: 0 auto; 
+    height: 100%;
 }
 
 
@@ -53,12 +58,20 @@ h4 {
     font-size: 1.2em;
 }
 
-#reviews{
+#review{
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     margin-bottom: 0.88em;
     font-size: 1.2em;
+    background-image: url('pictures/trees_s.jpg');
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #miljø{
@@ -67,6 +80,14 @@ h4 {
     padding-right: 1.4em;
     margin-bottom: 0.8em;
     font-size: 1.2em;
+    background-image: url('pictures/primrose_s.jpg');
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #gb{
@@ -75,6 +96,14 @@ h4 {
     padding-right: 1.4em;
     margin-bottom: 0.8em;
     font-size: 1.2em;
+    background-image: url('pictures/sapling_s.jpg');
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .stepimg {
@@ -252,7 +281,7 @@ nav a:hover {
   to {opacity:1 ;}
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 375px) {
   .nav-toggle-label {
     display: none;
   }
@@ -267,6 +296,10 @@ header {
     grid-column: 2 / 3;
   }
   
+body {
+    max-width: 1440px; margin: 0 auto; 
+    }    
+    
   nav {
     // all: unset; /* this causes issues with Edge, since it's unsupported */
     
@@ -315,4 +348,25 @@ header {
   nav a:hover::before {
     transform: scale(1,1);
   }
+    
+#review {
+    background-image: url('pictures/trees_m.jpg');
+    }
+    
+#miljø {
+    background-image: url('pictures/primrose_m.jpg');
+    }
+    
+#gb {
+    background-image: url('pictures/sapling_m.jpg');
+    }
+    
+    
+}
+
+@media screen and (min-width: 1440px) {    
+    
+body {
+    max-width: 1920px; margin: 0 auto; 
+    }
 }
