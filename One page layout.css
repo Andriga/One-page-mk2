@@ -132,19 +132,19 @@ h4 {
 }    
 
 #product {
-    background-image: url(pictures/vines_s.jpg);
+    background-image: url(pictures/Vines_s.png);
 }    
     
 #review {
-    background-image: url('pictures/trees_s.jpg');
+    background-image: url('pictures/Trees_S.png');
 }
     
 #miljø {
-    background-image: url('pictures/primrose_s.jpg');
+    background-image: url('pictures/Primrose_s.png');
 }
     
 #gb {
-    background-image: url('pictures/sapling_s.jpg');
+    background-image: url('pictures/Sapling_s.png');
 }
     
 @media screen and (min-width: 1200px) {    
@@ -156,11 +156,11 @@ h4 {
 }    
 
 #product {
-    background-image: url(pictures/vines_m.jpg);
+    background-image: url(pictures/Vines_m.png);
 }    
     
 #review {
-    background-image: url('pictures/trees_m.jpg');
+    background-image: url('pictures/Trees_m.png');
 }
     
 #miljø {
@@ -168,7 +168,7 @@ h4 {
 }
     
 #gb {
-    background-image: url('pictures/sapling_m.jpg');
+    background-image: url('pictures/Sapling_m.png');
 }
 
 @media screen and (min-width: 1920px) {    
