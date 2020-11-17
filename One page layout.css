@@ -1,29 +1,34 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
 	background: #e5e4e1;
     color: #046C44;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
-    max-width: 1000px; margin: 0 auto; 
     height: 100%;
 }
 
-
 h1 {
     color: #046C44;
-    font-size: 2em;
+    font-size: 5em;
 }
 
 h2 {
     color: #046C44;
+    font-size: 3em;
 }
 
 h3 {
     color: #046C44;
+    font-size: 2em;
 }
 
 h4 {
     color: #046C44;
+    font-size: 1.5em;
 }
 
 .body {
@@ -36,12 +41,23 @@ h4 {
     place-items: left;
 }
 
+#home{
+    padding: 0.2em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    font-size: 1.2em;
+    background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #product{
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
-    margin-top: 5.1em;
-    margin-bottom: 0.8em;
     font-size: 1.2em;
     background-image: url('pictures/vines_s.jpg');
     min-height: 100%;
@@ -55,7 +71,6 @@ h4 {
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
-    margin-bottom: 0.88em;
     font-size: 1.2em;
     background-image: url('pictures/trees_s.jpg');
     min-height: 100%;
@@ -74,7 +89,6 @@ h4 {
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
-    margin-bottom: 0.8em;
     font-size: 1.2em;
     background-image: url('pictures/primrose_s.jpg');
     min-height: 100%;
@@ -88,7 +102,6 @@ h4 {
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
-    margin-bottom: 0.8em;
     font-size: 1.2em;
     background-image: url('pictures/sapling_s.jpg');
     min-height: 100%;
@@ -109,11 +122,14 @@ h4 {
     position: relative;
 } */
 
-<<<<<<< Updated upstream
-.wrapper {
-    min-height: 100%;
-=======
-@media screen and (min-width: 365px) {    
+@media screen and (max-width: 900px) {    
+}
+
+/* Navigation starts here */
+
+/* Navigation ends here */
+
+#logo {
 }
 
 #home {
@@ -136,12 +152,12 @@ h4 {
     background-image: url('pictures/sapling_s.jpg');
 }
     
-@media screen and (min-width: 1440px) {    
+@media screen and (min-width: 1200px) {    
 }
 
 #home {
-   /background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
-    font-size: 4em;
+    background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
+    
 }    
 
 #product {
@@ -158,14 +174,9 @@ h4 {
     
 #gb {
     background-image: url('pictures/sapling_m.jpg');
->>>>>>> Stashed changes
 }
 
-
-<<<<<<< Updated upstream
-=======
-body {
-    max-width: 1920px; margin: 0 auto; 
+@media screen and (min-width: 1920px) {    
 }
 
 nav {
@@ -201,16 +212,6 @@ nav li a:hover {
     text-decoration: none;
 }
 
-/*
-.container ul li {
-    font-size: 2em;
-    list-style: square;
-    display: inline-grid;
-    margin-top: 10px;
+body {
+    max-width: 1920px; margin: 0 auto; 
 }
-
-.container ul li a:hover {
-    font-weight: bold;
-    color: white;
-} */
->>>>>>> Stashed changes
