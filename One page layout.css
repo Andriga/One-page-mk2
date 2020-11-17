@@ -200,6 +200,8 @@ h4 {
     background-image: url('pictures/Sapling_m.png');
 }
 
+/* Nav start */
+
 nav {
     position: fixed;
     width: 15%;
@@ -207,19 +209,16 @@ nav {
     height: 100%;
     color: white;
     overflow: hidden;
-    background-color: greenyellow;
 }
 
 nav a {
     font-size: 2.3em;
-    color: transparent;
 }
 
 nav ul li {
     margin-top: 50px;
     margin-bottom: 50px;
     list-style-type: none;
-    vertical-align: middle;
 }
 
 nav a:link, a:visited {
@@ -232,6 +231,62 @@ nav li a:hover {
     color: white;
     text-decoration: none;
 }
+
+#hiddenh {
+    max-width: 0;
+    opacity: 0;
+    transition: 0.1s ease-in;
+}
+
+#hiddenp {
+    max-width: 0;
+    opacity: 0;
+    transition: 0.1s ease-in;
+}
+
+#hiddenr {
+    max-width: 0;
+    opacity: 0;
+    transition: 0.1s ease-in;
+}
+
+#hiddenm {
+    max-width: 0;
+    opacity: 0;
+    transition: 0.1s ease-in;
+}
+
+#hiddeng {
+    max-width: 0;
+    opacity: 0;
+    transition: 0.1s ease-in;
+}
+
+#hiddenh:hover {
+    opacity: 1;
+    max-width: 1em;
+}
+
+#hiddenp:hover {
+    opacity: 1;
+    max-width: 1em;
+}
+#hiddenr:hover {
+    opacity: 1;
+    max-width: 1em;
+}
+
+#hiddenm:hover {
+    opacity: 1;
+    max-width: 1em;
+}
+
+#hiddeng:hover {
+    opacity: 1;
+    max-width: 1em;
+}
+
+/* Nav end */
 
 body {
     max-width: 1920px; margin: 0 auto; 
