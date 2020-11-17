@@ -122,10 +122,12 @@ h4 {
     position: relative;
 } */
 
-@media screen and (max-width: 900px) {    
+@media only screen and (max-width: 900px) {    
 }
 
 /* Navigation starts here */
+
+
 
 /* Navigation ends here */
 
@@ -152,7 +154,7 @@ h4 {
     background-image: url('pictures/Sapling_s.png');
 }
     
-@media screen and (min-width: 1200px) {    
+@media only screen and (min-width: 1200px) {    
 }
 
 #home {
@@ -176,7 +178,7 @@ h4 {
     background-image: url('pictures/Sapling_m.png');
 }
 
-@media screen and (min-width: 1920px) {    
+@media only screen and (min-width: 1920px) {    
 }
 
 #home {
