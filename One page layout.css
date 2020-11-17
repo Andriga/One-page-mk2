@@ -65,6 +65,11 @@ h4 {
     background-size: cover;
 }
 
+.material-icons {
+    color: white;
+}
+
+
 #miljø{
     padding: 0.2em;
     padding-left: 1.4em;
@@ -104,8 +109,108 @@ h4 {
     position: relative;
 } */
 
+<<<<<<< Updated upstream
 .wrapper {
     min-height: 100%;
+=======
+@media screen and (min-width: 365px) {    
+}
+
+#home {
+    background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
+}    
+
+#product {
+    background-image: url(pictures/vines_s.jpg);
+}    
+    
+#review {
+    background-image: url('pictures/trees_s.jpg');
+}
+    
+#miljø {
+    background-image: url('pictures/primrose_s.jpg');
+}
+    
+#gb {
+    background-image: url('pictures/sapling_s.jpg');
+}
+    
+@media screen and (min-width: 1440px) {    
+}
+
+#home {
+   /background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
+    font-size: 4em;
+}    
+
+#product {
+    background-image: url(pictures/vines_m.jpg);
+}    
+    
+#review {
+    background-image: url('pictures/trees_m.jpg');
+}
+    
+#miljø {
+    background-image: url('pictures/primrose_m.jpg');
+}
+    
+#gb {
+    background-image: url('pictures/sapling_m.jpg');
+>>>>>>> Stashed changes
 }
 
 
+<<<<<<< Updated upstream
+=======
+body {
+    max-width: 1920px; margin: 0 auto; 
+}
+
+nav {
+    position: fixed;
+    width: 15%;
+    top: 0;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+    background-color: greenyellow;
+}
+
+nav a {
+    font-size: 2.3em;
+    color: transparent;
+}
+
+nav ul li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+nav a:link, a:visited {
+    color: #046C44;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/*
+.container ul li {
+    font-size: 2em;
+    list-style: square;
+    display: inline-grid;
+    margin-top: 10px;
+}
+
+.container ul li a:hover {
+    font-weight: bold;
+    color: white;
+} */
+>>>>>>> Stashed changes
