@@ -107,6 +107,10 @@ h4 {
 @media screen and (min-width: 365px) {    
 }
 
+#home {
+        background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
+}    
+
 #product {
         background-image: url(pictures/vines_m.jpg);
 }    
@@ -124,6 +128,26 @@ h4 {
 }
     
 @media screen and (min-width: 1440px) {    
+}
+
+#home {
+        background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
+}    
+
+#product {
+        background-image: url(pictures/vines_m.jpg);
+}    
+    
+#review {
+    background-image: url('pictures/trees_m.jpg');
+}
+    
+#miljø {
+    background-image: url('pictures/primrose_m.jpg');
+}
+    
+#gb {
+    background-image: url('pictures/sapling_m.jpg');
 }
 
 body {
