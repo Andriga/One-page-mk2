@@ -59,7 +59,7 @@ h4 {
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-image: url('pictures/vines_s.jpg');
+    background-image: url('pictures/Vines_s.png');
     min-height: 100%;
     min-width: 100%;
     background-position: center;
@@ -72,7 +72,7 @@ h4 {
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-image: url('pictures/trees_s.jpg');
+    background-image: url('pictures/Trees_S.png');
     min-height: 100%;
     min-width: 100%;
     background-position: center;
@@ -90,7 +90,7 @@ h4 {
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-image: url('pictures/primrose_s.jpg');
+    background-image: url('pictures/Primrose_s.png');
     min-height: 100%;
     min-width: 100%;   
     background-position: center;
@@ -103,7 +103,7 @@ h4 {
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-image: url('pictures/sapling_s.jpg');
+    background-image: url('pictures/Sapling_s.png');
     min-height: 100%;
     min-width: 100%;
     background-position: center;
@@ -137,19 +137,19 @@ h4 {
 }    
 
 #product {
-    background-image: url(pictures/vines_s.jpg);
+    background-image: url(pictures/Vines_s.png);
 }    
     
 #review {
-    background-image: url('pictures/trees_s.jpg');
+    background-image: url('pictures/Trees_S.png');
 }
     
 #miljø {
-    background-image: url('pictures/primrose_s.jpg');
+    background-image: url('pictures/Primrose_s.png');
 }
     
 #gb {
-    background-image: url('pictures/sapling_s.jpg');
+    background-image: url('pictures/Sapling_s.png');
 }
     
 @media screen and (min-width: 1200px) {    
@@ -161,22 +161,43 @@ h4 {
 }    
 
 #product {
-    background-image: url(pictures/vines_m.jpg);
+    background-image: url(pictures/Vines_m.png);
 }    
     
 #review {
-    background-image: url('pictures/trees_m.jpg');
+    background-image: url('pictures/Trees_m.png');
 }
     
 #miljø {
-    background-image: url('pictures/primrose_m.jpg');
+    background-image: url('pictures/Primrose_m.png');
 }
     
 #gb {
-    background-image: url('pictures/sapling_m.jpg');
+    background-image: url('pictures/Sapling_m.png');
 }
 
 @media screen and (min-width: 1920px) {    
+}
+
+#home {
+    background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
+    
+}    
+
+#product {
+    background-image: url(pictures/Vines_m.png);
+}    
+    
+#review {
+    background-image: url('pictures/Trees_m.png');
+}
+    
+#miljø {
+    background-image: url('pictures/Primrose_m.png');
+}
+    
+#gb {
+    background-image: url('pictures/Sapling_m.png');
 }
 
 /* Nav start */
