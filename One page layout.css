@@ -80,6 +80,11 @@ h4 {
     background-size: cover;
 }
 
+.material-icons {
+    color: white;
+}
+
+
 #miljø{
     padding: 0.2em;
     padding-left: 1.4em;
@@ -172,6 +177,39 @@ h4 {
 }
 
 @media screen and (min-width: 1920px) {    
+}
+
+nav {
+    position: fixed;
+    width: 15%;
+    top: 0;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+    background-color: greenyellow;
+}
+
+nav a {
+    font-size: 2.3em;
+    color: transparent;
+}
+
+nav ul li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+nav a:link, a:visited {
+    color: #046C44;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
 
 body {
