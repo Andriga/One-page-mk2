@@ -1,6 +1,6 @@
 body {
-    margin: 20px;
-    color: #046C44;
+  margin: 20px;
+  color: #046C44;
 	font-family: 'PT sans', sans-serif;
 	font-weight: 400;
 }
@@ -91,7 +91,6 @@ body {
     color: white;
 }
 
-
 .miljø {
     padding: 0.2em;
     padding-left: 1.4em;
@@ -108,29 +107,6 @@ body {
     background-repeat: no-repeat;
 }
 
-<<<<<<< Updated upstream
-/* footer{
-    font-size: 1em;
-    text-align: right;
-    background-color: ;
-    color: #046C44;
-    padding: 0.1em;
-    padding-right: 1.2em;
-    clear: both;
-    position: relative;
-} */
-
-@media screen and (max-width: 900px) {    
-}
-
-/* Navigation starts here */
-
-/* Navigation ends here */
-=======
-.bottle {
-    text-align: center;
-}
-
 @media only screen and (max-width: 900px); {
     
 /* Grid area starts here */
@@ -144,7 +120,6 @@ body {
 }
 
 /* Grid area ends here */
->>>>>>> Stashed changes
 
 .logo {
 }
@@ -185,17 +160,10 @@ body {
     grid-template-rows: repeat (5, 1fr);
     grid-template-areas:
     
-<<<<<<< Updated upstream
-@media screen and (min-width: 1200px) {    
-=======
->>>>>>> Stashed changes
-}
-
 /* Grid area ends here */
 
 .logo {
-}
-
+  
 .home {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
     background-size: cover;
@@ -222,11 +190,8 @@ body {
     }
 }
 
-<<<<<<< Updated upstream
-@media screen and (min-width: 1920px) {    
-=======
-@media only screen and (min-width: 1920px); {    
-
+@media only screen and (min-width: 1920px) {    
+  
 /* Grid area starts here */
 
     display: grid;
@@ -237,12 +202,10 @@ body {
 
 }
 
-/* Grid area ends here */
+/* Grid area ends here */  
 
-.logo {
->>>>>>> Stashed changes
-}
-
+.logo { 
+  
 .home {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
     background-size: cover;    
@@ -354,13 +317,3 @@ nav li a:hover {
     max-width: 1em;
     }
 }
-
-<<<<<<< Updated upstream
-/* Nav end */
-
-body {
-    max-width: 1920px; margin: 0 auto; 
-}
-=======
- Alternate navigation ends */
->>>>>>> Stashed changes
