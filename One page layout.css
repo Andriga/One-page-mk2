@@ -1,6 +1,6 @@
 body {
-  margin: 20px;
-  color: #046C44;
+    margin: 20px;
+    color: #046C44;
 	font-family: 'PT sans', sans-serif;
 	font-weight: 400;
 }
@@ -91,6 +91,7 @@ body {
     color: white;
 }
 
+
 .miljø {
     padding: 0.2em;
     padding-left: 1.4em;
@@ -107,32 +108,13 @@ body {
     background-repeat: no-repeat;
 }
 
-<<<<<<< Updated upstream
-=======
-/* footer{
-    font-size: 1em;
-    text-align: right;
-    background-color: ;
-    color: #046C44;
-    padding: 0.1em;
-    padding-right: 1.2em;
-    clear: both;
-    position: relative;
-} */
-
 .bottle {
     text-align: center;
 }
 
->>>>>>> Stashed changes
 @media only screen and (max-width: 900px); {
 }
 
-<<<<<<< Updated upstream
-/* Grid area ends here */
-
-=======
->>>>>>> Stashed changes
 .logo {
 }
 
@@ -163,23 +145,10 @@ body {
 }
 
 @media only screen and (min-width: 1200px); {    
-<<<<<<< Updated upstream
-
-/* Grid area starts here */
-
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (5, 1fr);
-    grid-template-rows: repeat (5, 1fr);
-    grid-template-areas:
-    
-/* Grid area ends here */
-=======
-}
->>>>>>> Stashed changes
 
 .logo {
-  
+}
+
 .home {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
     background-size: cover;
@@ -206,30 +175,12 @@ body {
     }
 }
 
-<<<<<<< Updated upstream
-@media only screen and (min-width: 1920px) {    
-  
-/* Grid area starts here */
-
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (16, 1fr);
-    grid-template-rows: repeat (4, 1fr);
-    grid-template-areas: ;
-
-}
-
-/* Grid area ends here */  
-=======
 @media only screen and (min-width: 1920px); {    
 }
 
 .logo {
 }
->>>>>>> Stashed changes
 
-.logo { 
-  
 .home {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
     background-size: cover;    
@@ -340,11 +291,5 @@ nav li a:hover {
     opacity: 1;
     max-width: 1em;
     }
-<<<<<<< Updated upstream
-}
-=======
-}
 
-<<<<<<< Updated upstream
-/* Nav end */
->>>>>>> Stashed changes
+Alternate navigation end */
