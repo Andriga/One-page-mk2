@@ -1,14 +1,8 @@
-html {
-    height: 100%;
-}
-
 body {
-    margin: 0;
-	background: #e5e4e1;
-    color: #046C44;
-	font-family: 'Work Sans', sans-serif;
+  margin: 20px;
+  color: #046C44;
+	font-family: 'PT sans', sans-serif;
 	font-weight: 400;
-    height: 100%;
 }
 
 h1 {
@@ -31,178 +25,213 @@ h4 {
     font-size: 1.5em;
 }
 
-.body {
+#video {
+    max-height: 90%;
+    max-width: 90%;
+}
+
+/* Navigation */
+
+span {
+    background: #046C44 !important;
+    color: #046C44 !important;
+    height: 1em !important;
+    width: 1em !important;
+}
+
+li{
+    margin-bottom: 3em !important;
+    margin-right: 1em !important;
+}
+
+.fp-right {
+    color: #046C44 !important;
+    font-size: 1.2em !important;
+    font-weight: bold;
+}
+
+/* Navigation */
+
+body {
     height: 100%;
     background-color: #e5e4e1;
     background-blend-mode: multiply;
-    background-size: cover;
     color: #046C44;
-    display: grid;
     place-items: left;
 }
 
-#home{
+.home {
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
-    min-height: 100%;
-    min-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
-#product{
+.product {
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-image: url('pictures/Vines_s.png');
-    min-height: 100%;
-    min-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
-#review{
+.review {
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-image: url('pictures/Trees_S.png');
-    min-height: 100%;
-    min-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .material-icons {
     color: white;
 }
 
-
-#miljø{
+.miljø {
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-image: url('pictures/Primrose_s.png');
-    min-height: 100%;
-    min-width: 100%;   
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-#gb{
+.gb {
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-image: url('pictures/Sapling_s.png');
-    min-height: 100%;
-    min-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
-/* footer{
-    font-size: 1em;
-    text-align: right;
-    background-color: ;
-    color: #046C44;
-    padding: 0.1em;
-    padding-right: 1.2em;
-    clear: both;
-    position: relative;
-} */
+@media only screen and (max-width: 900px); {
+    
+/* Grid area starts here */
 
-@media only screen and (max-width: 900px) {    
+    display: ;
+    grid-gap: 0px;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: repeat (10, 1fr);
+    grid-template-areas:
+    
 }
 
-/* Navigation starts here */
+/* Grid area ends here */
 
-
-
-/* Navigation ends here */
-
-#logo {
+.logo {
 }
 
-#home {
+.home {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
+    background-size: cover;
 }    
 
-#product {
+.product {
     background-image: url(pictures/Vines_s.png);
+    background-size: cover;
 }    
     
-#review {
+.review {
     background-image: url('pictures/Trees_S.png');
+    background-size: cover;
 }
     
-#miljø {
+.miljø {
     background-image: url('pictures/Primrose_s.png');
+    background-size: cover;
 }
     
-#gb {
+.gb {
     background-image: url('pictures/Sapling_s.png');
-}
-    
-@media only screen and (min-width: 1200px) {    
+    background-size: cover;
+    }
 }
 
-#home {
+@media only screen and (min-width: 1200px); {    
+
+/* Grid area starts here */
+
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat (5, 1fr);
+    grid-template-rows: repeat (5, 1fr);
+    grid-template-areas:
+    
+/* Grid area ends here */
+
+.logo {
+  
+.home {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
-    
+    background-size: cover;
 }    
 
-#product {
+.product {
     background-image: url(pictures/Vines_m.png);
+    background-size: cover;
 }    
     
-#review {
+.review {
     background-image: url('pictures/Trees_m.png');
+    background-size: cover;
 }
     
-#miljø {
+.miljø {
     background-image: url('pictures/Primrose_m.png');
+    background-size: cover;
 }
     
-#gb {
+.gb {
     background-image: url('pictures/Sapling_m.png');
+    background-size: cover;
+    }
 }
 
 @media only screen and (min-width: 1920px) {    
+  
+/* Grid area starts here */
+
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat (16, 1fr);
+    grid-template-rows: repeat (4, 1fr);
+    grid-template-areas: ;
+
 }
 
-#home {
+/* Grid area ends here */  
+
+.logo { 
+  
+.home {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
-    
+    background-size: cover;    
 }    
 
-#product {
+.product {
     background-image: url(pictures/Vines_m.png);
+    background-size: cover;
 }    
     
-#review {
+.review {
     background-image: url('pictures/Trees_m.png');
+    background-size: cover;
 }
     
-#miljø {
+.miljø {
     background-image: url('pictures/Primrose_m.png');
+    background-size: cover;
 }
     
-#gb {
+.gb {
     background-image: url('pictures/Sapling_m.png');
+    background-size: cover;
 }
 
-/* Nav start */
+/* Alternate navigation start
 
 nav {
     position: fixed;
@@ -286,10 +315,5 @@ nav li a:hover {
 #hiddeng:hover {
     opacity: 1;
     max-width: 1em;
-}
-
-/* Nav end */
-
-body {
-    max-width: 1920px; margin: 0 auto; 
+    }
 }
