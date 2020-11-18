@@ -91,7 +91,6 @@ body {
     color: white;
 }
 
-
 .miljø {
     padding: 0.2em;
     padding-left: 1.4em;
@@ -145,6 +144,7 @@ body {
 }
 
 @media only screen and (min-width: 1200px); {    
+}
 
 .logo {
 }
