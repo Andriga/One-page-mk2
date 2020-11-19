@@ -110,9 +110,7 @@ p {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
     background-size: cover;
     background-position: center;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
-        
+            
     display: grid;
     grid-gap: 0px;
     grid-template-columns: repeat (2, 1fr);
@@ -125,8 +123,6 @@ p {
     background-image: url(pictures/Vines_s.png);
     background-size: cover;
     background-position: center;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
         
     display: grid;
     grid-gap: 0px;
@@ -145,8 +141,6 @@ p {
     background-image: url('pictures/Trees_S.png');
     background-size: cover;
     background-position: center;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
         
     display: grid;
     grid-gap: 0px;
@@ -169,8 +163,6 @@ p {
     background-image: url('pictures/Primrose_s.png');
     background-size: cover;
     background-position: center;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
         
     display: grid;
     grid-gap: 0px;
@@ -184,8 +176,6 @@ p {
     background-image: url('pictures/Sapling_s.png');
     background-size: cover;
     background-position: center;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
     
     display: grid;
     grid-gap: 0px;
@@ -338,8 +328,6 @@ p {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
     background-size: cover;
     background-position: center;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
     
     display: grid;
     grid-gap: 0px;
@@ -353,8 +341,6 @@ p {
     background-image: url(pictures/Vines_m.png);
     background-size: cover;
     background-position: center;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
     
     display: grid;
     grid-gap: 0px;
@@ -373,8 +359,6 @@ p {
     background-image: url('pictures/Trees_m.png');
     background-size: cover;
     background-position: center;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
         
     display: grid;
     grid-gap: 0px;
@@ -397,8 +381,6 @@ p {
     background-image: url('pictures/Primrose_m.png');
     background-size: cover;
     background-position: center;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
     
     display: grid;
     grid-gap: 0px;
@@ -412,8 +394,6 @@ p {
     background-image: url('pictures/Sapling_m.png');
     background-size: cover;
     background-position: center;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
     
     display: grid;
     grid-gap: 0px;
@@ -575,7 +555,12 @@ p {
     grid-template-columns: repeat (6, 1fr);
     grid-template-rows: repeat (6, 1fr);
     grid-template-areas:
-        "";
+        "il il . . . ."
+        "il il . . . ."
+        "il il . . . ."
+        "il il . . . ."
+        "il il . . . ."
+        "il il . . . .";
 }  
 
 .product {
@@ -602,8 +587,8 @@ p {
     background-image: url('pictures/Trees_m.png');
     background-size: cover;
     background-position: center;
-    padding-left: ;
-    padding-right: ;
+    padding-left: 300px;
+    padding-right: 300px;
     
     display: grid;
     grid-gap: 0px;
@@ -643,8 +628,7 @@ p {
     background-position: center;
     padding-left: 300px;
     padding-right: 300px;
-    font-size: 1.2em;
-       
+           
     display: grid;
     grid-gap: 0px;
     grid-template-columns: repeat (6, 1fr);
