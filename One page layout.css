@@ -1,15 +1,17 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile layout starts here */
+
+@media only screen and (max-width: 800px) {
+    
 body {
-    margin: 20px;
     height: 100%;
     font-family: 'PT sans', sans-serif;
 	font-weight: 400;
     background-color: #e5e4e1;
-}
-
-
-/* Mobile layout starts here */
-
-@media only screen and (max-width: 900px); {
 }
 
 h1 {
@@ -37,48 +39,40 @@ p {
 }
 
 .logo {
+    max-width: 200px;
+    max-height: 150px;
 }
 
 .home {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
     background-size: cover;
+    background-position: center;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-position: center;
-    background-repeat: no-repeat;
+    
     display: flex;
     flex-wrap: nowrap;
-}
-
-.home > div {
     width: 100px;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-} 
+    line-height: 45px;
+}
 
 .product {
     background-image: url(pictures/Vines_s.png);
     background-size: cover;
+    background-position: center;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-position: center;
-    background-repeat: no-repeat;
+    
     display: flex;
     flex-wrap: nowrap;
-}
-
-.product > div {
     width: 100px;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 45px;
 }
 
 #video {
@@ -89,22 +83,17 @@ p {
 .review {
     background-image: url('pictures/Trees_S.png');
     background-size: cover;
+    background-position: center;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-position: center;
-    background-repeat: no-repeat;
+    
     display: flex;
     flex-wrap: nowrap;
-}
-
-.review > div {
     width: 100px;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 45px;
 }
 
 .bottle {
@@ -113,48 +102,40 @@ p {
 }
 
 .material-icons {
-    color: white;
+    color: darkorange;
 }
     
 .miljo {
     background-image: url('pictures/Primrose_s.png');
     background-size: cover;
+    background-position: center;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em; 
+    
     display: flex;
     flex-wrap: nowrap;
+    width: 100px;
+    text-align: center;
+    line-height: 45px;
 }
 
-.miljo > div {
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-    
 .gb {
     background-image: url('pictures/Sapling_s.png');
     background-size: cover;
+    background-position: center;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-position: center;
-    background-repeat: no-repeat;
+    
     display: flex;
     flex-wrap: nowrap;
-}
-
-.gb > div {
     width: 100px;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}   
+    line-height: 45px;
+}  
 
 /* Navigation for Mobile starts here*/
 
@@ -171,8 +152,8 @@ li{
     color: #cb2f82 !important;
     font-size: 1.2em !important;
     font-weight: bold;
+    }
 }
-
 /* Navigation for Mobile ends here*/
 
 /* Mobile layout ends here */
@@ -180,7 +161,13 @@ li{
 
 /* Tablet layout starts here */
 
-@media only screen and (min-width: 1200px); {    
+@media only screen and (min-width: 1200px) {    
+
+body {
+    height: 100%;
+    font-family: 'PT sans', sans-serif;
+	font-weight: 400;
+    background-color: #e5e4e1;
 }
 
 h1 {
@@ -208,49 +195,41 @@ p {
 }
 
 .logo {
+    max-width: 200px;
+    max-height: 150px;
 }
 
 .home {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
     background-size: cover;
+    background-position: center;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-position: center;
-    background-repeat: no-repeat;
+    
     display: flex;
     flex-wrap: nowrap;
-}
-
-.home > div {
     width: 100px;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}  
+    line-height: 45px;
+} 
 
 .product {
     background-image: url(pictures/Vines_m.png);
     background-size: cover;
+    background-position: center;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-position: center;
-    background-repeat: no-repeat;
+    
     display: flex;
     flex-wrap: nowrap;
-}
-
-.product > div {
     width: 100px;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-} 
+    line-height: 45px;
+}
 
 #video {
     max-height: 70%;
@@ -260,22 +239,17 @@ p {
 .review {
     background-image: url('pictures/Trees_m.png');
     background-size: cover;
+    background-position: center;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-position: center;
-    background-repeat: no-repeat;
+    
     display: flex;
     flex-wrap: nowrap;
-}
-
-.review > div {
     width: 100px;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 45px;
 }
 
 .bottle {
@@ -284,47 +258,39 @@ p {
 }
 
 .material-icons {
-    color: white;
+    color: darkorange;
 }
     
 .miljo {
     background-image: url('pictures/Primrose_m.png');
     background-size: cover;
+    background-position: center;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em; 
+    
     display: flex;
     flex-wrap: nowrap;
-}
-
-.miljo > div {
     width: 100px;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 45px;
 }
     
 .gb {
     background-image: url('pictures/Sapling_m.png');
     background-size: cover;
+    background-position: center;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
     font-size: 1.2em;
-    background-position: center;
-    background-repeat: no-repeat;
+    
     display: flex;
     flex-wrap: nowrap;
-}
-
-.gb > div {
     width: 100px;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 45px;
 }
 
 /* Navigation for Tablet starts here*/
@@ -342,8 +308,8 @@ li{
     color: #cb2f82 !important;
     font-size: 1.2em !important;
     font-weight: bold;
+    }
 }
-
 /* Navigation for Tablet ends here*/
 
 /* Tablet layout ends here */
@@ -351,7 +317,12 @@ li{
 
 /* Computer layout starts here */
 
-@media only screen and (min-width: 1920px); {    
+@media only screen and (min-width: 1700px) {    
+
+body {
+    font-family: 'PT sans', sans-serif;
+	font-weight: 400;
+    background-color: #e5e4e1;
 }
 
 h1 {
@@ -366,87 +337,101 @@ h2 {
 
 h3 {
     color: #046C44;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h4 {
     color: #046C44;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 p {
     color: #046C44;
+    font-size: 22px;
 }
 
 .logo {
+    max-width: 200px;
+    max-height: 150px;
 }
 
 .home {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
-    background-size: cover;    
-    padding: 0.2em;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
-    font-size: 1.2em;
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    padding-left: 300px;
+    padding-right: 300px;
+    
     display: flex;
     flex-wrap: nowrap;
-}
-
-.home > div {
     width: 100px;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 45px;
 }  
 
 .product {
     background-image: url(pictures/Vines_m.png);
     background-size: cover;
-    padding: 0.2em;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
-    font-size: 1.2em;
     background-position: center;
-    background-repeat: no-repeat;
+    padding-left: 300px;
+    padding-right: 300px;
+    
     display: flex;
     flex-wrap: nowrap;
+    width: 100px;
+    text-align: center;
+    line-height: 45px;
 }
 
-.product > div {
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-} 
-
 #video {
-    max-height: 70%;
+    max-height: 65%;
     max-width: 95%;
 }
     
-.review {
+.review <div {
     background-image: url('pictures/Trees_m.png');
     background-size: cover;
-    padding: 0.2em;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
-    font-size: 1.2em;
     background-position: center;
-    background-repeat: no-repeat;
+    padding-left: ;
+    padding-right: ;
+    
     display: flex;
-    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
 }
 
-.review > div {
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+.item1 {
+    order: 1;
+}
+
+.item2 {
+    order: 2;
+}
+
+.item3 {
+    order: 3;
+}
+
+.item4 {
+    order: 4;
+}
+
+.item5 {
+    order: 5;
+}
+
+.item6 {
+    order: 6;
+}
+
+.item7 {
+    order: 7;
+}
+
+.itemb {
+    order: 8;
 }
 
 .bottle {
@@ -455,47 +440,36 @@ p {
 }
 
 .material-icons {
-    color: white;
+    color: darkorange;
 }
     
 .miljo {
     background-image: url('pictures/Primrose_m.png');
     background-size: cover;
-    padding: 0.2em;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
-    font-size: 1.2em; 
+    background-position: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    
     display: flex;
     flex-wrap: nowrap;
-}
-
-.miljo > div {
     width: 100px;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 45px;
 }
     
 .gb {
     background-image: url('pictures/Sapling_m.png');
     background-size: cover;
-    padding: 0.2em;
-    padding-left: 1.4em;
-    padding-right: 1.4em;
-    font-size: 1.2em;
     background-position: center;
-    background-repeat: no-repeat;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 1.2em;
+    
     display: flex;
     flex-wrap: nowrap;
-}
-
-.gb > div {
     width: 100px;
-    margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 45px;
 }
 
 /* Navigation for Computer starts here*/
@@ -513,8 +487,8 @@ li{
     color: #cb2f82 !important;
     font-size: 1.2em !important;
     font-weight: bold;
+    }
 }
-
 /* Navigation for Computer ends here*/
 
 /* Computer layout ends here */
