@@ -1,8 +1,15 @@
 body {
     margin: 20px;
-    color: #046C44;
-	font-family: 'PT sans', sans-serif;
+    height: 100%;
+    font-family: 'PT sans', sans-serif;
 	font-weight: 400;
+    background-color: #e5e4e1;
+}
+
+
+/* Mobile layout starts here */
+
+@media only screen and (max-width: 900px); {
 }
 
 h1 {
@@ -26,17 +33,15 @@ h4 {
 }
 
 p {
+    color: #046C44;
 }
 
-body {
-    height: 100%;
-    background-color: #e5e4e1;
-    background-blend-mode: multiply;
-    color: #046C44;
-    place-items: left;
+.logo {
 }
 
 .home {
+    background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
+    background-size: cover;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
@@ -53,9 +58,11 @@ body {
     text-align: center;
     line-height: 75px;
     font-size: 30px;
-}
+} 
 
 .product {
+    background-image: url(pictures/Vines_s.png);
+    background-size: cover;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
@@ -74,7 +81,14 @@ body {
     font-size: 30px;
 }
 
+#video {
+    max-height: 70%;
+    max-width: 95%;
+}
+    
 .review {
+    background-image: url('pictures/Trees_S.png');
+    background-size: cover;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
@@ -93,11 +107,18 @@ body {
     font-size: 30px;
 }
 
+.bottle {
+    max-height: 50%;
+    max-width: 50%;
+}
+
 .material-icons {
     color: white;
 }
-
+    
 .miljo {
+    background-image: url('pictures/Primrose_s.png');
+    background-size: cover;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
@@ -113,8 +134,181 @@ body {
     line-height: 75px;
     font-size: 30px;
 }
-
+    
 .gb {
+    background-image: url('pictures/Sapling_s.png');
+    background-size: cover;
+    padding: 0.2em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    font-size: 1.2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.gb > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}   
+
+/* Navigation for Mobile starts here*/
+
+span {
+    background: #c50e68 !important;
+}
+
+li{
+    margin-bottom: 2em !important;
+    margin-right: 1em !important;
+}
+
+.fp-right {
+    color: #cb2f82 !important;
+    font-size: 1.2em !important;
+    font-weight: bold;
+}
+
+/* Navigation for Mobile ends here*/
+
+/* Mobile layout ends here */
+
+
+/* Tablet layout starts here */
+
+@media only screen and (min-width: 1200px); {    
+}
+
+h1 {
+    color: #046C44;
+    font-size: 5em;
+}
+
+h2 {
+    color: #046C44;
+    font-size: 3em;
+}
+
+h3 {
+    color: #046C44;
+    font-size: 2em;
+}
+
+h4 {
+    color: #046C44;
+    font-size: 1.5em;
+}
+
+p {
+    color: #046C44;
+}
+
+.logo {
+}
+
+.home {
+    background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
+    background-size: cover;
+    padding: 0.2em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    font-size: 1.2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.home > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}  
+
+.product {
+    background-image: url(pictures/Vines_m.png);
+    background-size: cover;
+    padding: 0.2em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    font-size: 1.2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.product > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} 
+
+#video {
+    max-height: 70%;
+    max-width: 95%;
+}
+    
+.review {
+    background-image: url('pictures/Trees_m.png');
+    background-size: cover;
+    padding: 0.2em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    font-size: 1.2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.review > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.bottle {
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.material-icons {
+    color: white;
+}
+    
+.miljo {
+    background-image: url('pictures/Primrose_m.png');
+    background-size: cover;
+    padding: 0.2em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    font-size: 1.2em; 
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.miljo > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+    
+.gb {
+    background-image: url('pictures/Sapling_m.png');
+    background-size: cover;
     padding: 0.2em;
     padding-left: 1.4em;
     padding-right: 1.4em;
@@ -133,17 +327,7 @@ body {
     font-size: 30px;
 }
 
-#video {
-    max-height: 70%;
-    max-width: 95%;
-}
-
-.bottle {
-    max-height: 50%;
-    max-width: 50%;
-}
-
-/* Navigation starts here*/
+/* Navigation for Tablet starts here*/
 
 span {
     background: #c50e68 !important;
@@ -160,73 +344,38 @@ li{
     font-weight: bold;
 }
 
-/* Navigation ends here*/
+/* Navigation for Tablet ends here*/
 
-@media only screen and (max-width: 900px); {
-}
+/* Tablet layout ends here */
 
-.logo {
-}
 
-.home {
-    background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
-    background-size: cover;
-}    
-
-.product {
-    background-image: url(pictures/Vines_s.png);
-    background-size: cover;
-}    
-    
-.review {
-    background-image: url('pictures/Trees_S.png');
-    background-size: cover;
-}
-    
-.miljo {
-    background-image: url('pictures/Primrose_s.png');
-    background-size: cover;
-}
-    
-.gb {
-    background-image: url('pictures/Sapling_s.png');
-    background-size: cover;
-    }
-}
-
-@media only screen and (min-width: 1200px); {    
-}
-
-.logo {
-}
-
-.home {
-    background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
-    background-size: cover;
-}    
-
-.product {
-    background-image: url(pictures/Vines_m.png);
-    background-size: cover;
-}    
-    
-.review {
-    background-image: url('pictures/Trees_m.png');
-    background-size: cover;
-}
-    
-.miljo {
-    background-image: url('pictures/Primrose_m.png');
-    background-size: cover;
-}
-    
-.gb {
-    background-image: url('pictures/Sapling_m.png');
-    background-size: cover;
-    }
-}
+/* Computer layout starts here */
 
 @media only screen and (min-width: 1920px); {    
+}
+
+h1 {
+    color: #046C44;
+    font-size: 5em;
+}
+
+h2 {
+    color: #046C44;
+    font-size: 3em;
+}
+
+h3 {
+    color: #046C44;
+    font-size: 2em;
+}
+
+h4 {
+    color: #046C44;
+    font-size: 1.5em;
+}
+
+p {
+    color: #046C44;
 }
 
 .logo {
@@ -235,112 +384,137 @@ li{
 .home {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
     background-size: cover;    
-}    
+    padding: 0.2em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    font-size: 1.2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.home > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}  
 
 .product {
     background-image: url(pictures/Vines_m.png);
     background-size: cover;
-}    
+    padding: 0.2em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    font-size: 1.2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.product > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} 
+
+#video {
+    max-height: 70%;
+    max-width: 95%;
+}
     
 .review {
     background-image: url('pictures/Trees_m.png');
     background-size: cover;
+    padding: 0.2em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    font-size: 1.2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.review > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.bottle {
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.material-icons {
+    color: white;
 }
     
 .miljo {
     background-image: url('pictures/Primrose_m.png');
     background-size: cover;
+    padding: 0.2em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    font-size: 1.2em; 
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.miljo > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }
     
 .gb {
     background-image: url('pictures/Sapling_m.png');
     background-size: cover;
+    padding: 0.2em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    font-size: 1.2em;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-/* Alternate navigation start
-
-nav {
-    position: fixed;
-    width: 15%;
-    top: 0;
-    height: 100%;
-    color: white;
-    overflow: hidden;
+.gb > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }
 
-nav a {
-    font-size: 2.3em;
+/* Navigation for Computer starts here*/
+
+span {
+    background: #c50e68 !important;
 }
 
-nav ul li {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    list-style-type: none;
+li{
+    margin-bottom: 2em !important;
+    margin-right: 1em !important;
 }
 
-nav a:link, a:visited {
-    color: #046C44;
-    text-decoration: none;
-}
-
-nav li a:hover {
+.fp-right {
+    color: #cb2f82 !important;
+    font-size: 1.2em !important;
     font-weight: bold;
-    color: white;
-    text-decoration: none;
 }
 
-#hiddenh {
-    max-width: 0;
-    opacity: 0;
-    transition: 0.1s ease-in;
-}
+/* Navigation for Computer ends here*/
 
-#hiddenp {
-    max-width: 0;
-    opacity: 0;
-    transition: 0.1s ease-in;
-}
-
-#hiddenr {
-    max-width: 0;
-    opacity: 0;
-    transition: 0.1s ease-in;
-}
-
-#hiddenm {
-    max-width: 0;
-    opacity: 0;
-    transition: 0.1s ease-in;
-}
-
-#hiddeng {
-    max-width: 0;
-    opacity: 0;
-    transition: 0.1s ease-in;
-}
-
-#hiddenh:hover {
-    opacity: 1;
-    max-width: 1em;
-}
-
-#hiddenp:hover {
-    opacity: 1;
-    max-width: 1em;
-}
-#hiddenr:hover {
-    opacity: 1;
-    max-width: 1em;
-}
-
-#hiddenm:hover {
-    opacity: 1;
-    max-width: 1em;
-}
-
-#hiddeng:hover {
-    opacity: 1;
-    max-width: 1em;
-    }
-
-Alternate navigation end */
+/* Computer layout ends here */
