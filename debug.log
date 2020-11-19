@@ -1,1 +1,3 @@
 [1118/084101.179:ERROR:directory_reader_win.cc(43)] FindFirstFile: Den angivne sti blev ikke fundet. (0x3)
+[1118/133032.052:ERROR:directory_reader_win.cc(43)] FindFirstFile: Den angivne sti blev ikke fundet. (0x3)
+[1119/082351.868:ERROR:directory_reader_win.cc(43)] FindFirstFile: Den angivne sti blev ikke fundet. (0x3)
