@@ -31,7 +31,38 @@ h4 {
     font-size: 1.5em;
 }
 
+<<<<<<< Updated upstream
 .body {
+=======
+#video {
+    max-height: 70%;
+    max-width: 90%;
+}
+
+/* Navigation starts here*/
+
+span {
+    background: #046C44 !important;
+    color: #046C44 !important;
+    height: 1em !important;
+    width: 1em !important;
+}
+
+li{
+    margin-bottom: 3em !important;
+    margin-right: 1em !important;
+}
+
+.fp-right {
+    color: #046C44 !important;
+    font-size: 1.2em !important;
+    font-weight: bold;
+}
+
+/* Navigation ends here*/
+
+body {
+>>>>>>> Stashed changes
     height: 100%;
     background-color: #e5e4e1;
     background-blend-mode: multiply;
@@ -129,7 +160,35 @@ h4 {
 
 /* Navigation ends here */
 
+<<<<<<< Updated upstream
 #logo {
+=======
+.product {
+    background-image: url(pictures/Vines_s.png);
+    background-size: cover;
+}    
+    
+.review {
+    background-image: url('pictures/Trees_S.png');
+    background-size: cover;
+}
+    
+.miljø {
+    background-image: url('pictures/Primrose_s.png');
+    background-size: cover;
+}
+    
+.gb {
+    background-image: url('pictures/Sapling_m.png');
+    background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 1200px); {    
+}
+
+.logo {
+>>>>>>> Stashed changes
 }
 
 #home {
