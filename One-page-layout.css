@@ -3,16 +3,6 @@
     padding: 0;
 }
 
-/* Mobile layout starts here */
-
-@media screen and (max-width: 800px) {
-    
-body {
-    font-family: 'PT sans', sans-serif;
-	font-weight: 400;
-    background-color: #e5e4e1;
-}
-
 /* Grid area description start */
     
 #iteml {
@@ -23,8 +13,16 @@ body {
     grid-area: iv;
 }
     
-#itemp {
-    grid-area: ip;
+#itemp1 {
+    grid-area: pp;
+}
+    
+#itemp2 {
+    grid-area: mp;
+}
+    
+#itemp3 {
+    grid-area: gbp;
 }
 
 #item1 {
@@ -74,31 +72,62 @@ body {
 #gbb {
     grid-area: gb;
 }
+
+#itemh1 {
+    grid-area: hh;
+}
     
-/* Grid area description end */    
+#itemh2 {
+    grid-area: ph;
+}
+    
+#itemh3 {
+    grid-area: rh;
+}    
+    
+#itemh4 {
+    grid-area: mh;
+}
+
+#itemh5 {
+    grid-area: gbh;
+}
+
+/* Grid area description end */
+
+/* Mobile layout starts here */
+
+@media only screen and (max-width: 800px) and (min-width: 200px) {
+    
+body {
+    font-family: 'PT sans', sans-serif;
+	font-weight: 400;
+    background-color: #e5e4e1;
+}    
     
 h1 {
     color: #046C44;
-    font-size: 5em;
+    font-size: 60px;
 }
 
 h2 {
     color: #046C44;
-    font-size: 3em;
+    font-size: 40px;
 }
 
 h3 {
     color: #046C44;
-    font-size: 2em;
+    font-size: 12px;
 }
 
 h4 {
     color: #046C44;
-    font-size: 1.5em;
+    font-size: 7px;
 }
 
 p {
     color: #046C44;
+    font-size: 18px;
 }
 
 .logo {
@@ -106,85 +135,90 @@ p {
     max-height: 150px;
 }
 
-.home {
+.home > div {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
     background-size: cover;
     background-position: center;
-            
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (2, 1fr);
-    grid-template-rows: repeat (6, 1fr);
-    grid-template-areas:
-        "";
-}
-
-.product {
-    background-image: url(pictures/Vines_s.png);
-    background-size: cover;
-    background-position: center;
+    padding-left: ;
+    padding-right: ;
         
     display: grid;
     grid-gap: 0px;
-    grid-template-columns: repeat (2, 1fr);
-    grid-template-rows: repeat (6, 1fr);
+    grid-template-columns: (1fr 1fr 1fr);
+    grid-template-rows: (1fr 1fr 1fr);
     grid-template-areas:
-        "";
+        "il . ."
+        "hh hh ."
+        ". . .";
 }
 
+.product > div {
+    background-image: url(pictures/Vines_s.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+    
 #video {
     max-height: 70%;
     max-width: 95%;
 }
     
-.review {
-    background-image: url('pictures/Trees_S.png');
+.review > div {
+    background-image: url('pictures/Trees_s.png');
     background-size: cover;
     background-position: center;
+    padding-left: ;
+    padding-right: ;
+    text-align: center;
+    align-content: center;
         
     display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (3, 1fr);
-    grid-template-rows: repeat (6, 1fr);
+    overflow: hidden;
+    grid-gap: 2px;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: repeat (5, 1fr);
     grid-template-areas:
-        "";
+        "rh i1 "
+        ". i2 "
+        "ib i3 "
+        "ib i4 "
+        "ib i5 "
+        ". i6 "
+        "rb i7 "
+        ". . ";
 }
     
 .bottle {
-    max-height: 50%;
-    max-width: 50%;
+    max-height: 75%;
+    max-width: 75%;
 }
 
 .material-icons {
     color: darkorange;
+    max-height: 15%;
+    max-width: 15%;
 }
     
-.miljo {
+.miljo > div {
     background-image: url('pictures/Primrose_s.png');
     background-size: cover;
     background-position: center;
-        
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (2, 1fr);
-    grid-template-rows: repeat (6, 1fr);
-    grid-template-areas:
-        "";
+    padding-left: 5%;
+    padding-right: 15%;
 }
 
-.gb {
+.gb > div {
     background-image: url('pictures/Sapling_s.png');
     background-size: cover;
     background-position: center;
-    
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (2, 1fr);
-    grid-template-rows: repeat (6, 1fr);
-    grid-template-areas:
-        "";
+    padding-left: 5%;
+    padding-right: 15%;
 }
-    
+
 .button {
     background-color: #046C44; 
     border: none;
@@ -192,6 +226,8 @@ p {
     text-align: center;
     font-size: 20px;
     padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .button a {
@@ -216,6 +252,7 @@ li {
     font-weight: bold;
     }
 }
+
 /* Navigation for Mobile ends here*/
 
 /* Mobile layout ends here */
@@ -223,131 +260,72 @@ li {
 
 /* Tablet layout starts here */
 
-@media screen and (max-width: 1700px) {    
+@media only screen and (max-width: 1700px) and (min-width: 801px) {    
 
 body {
     font-family: 'PT sans', sans-serif;
 	font-weight: 400;
     background-color: #e5e4e1;
-}
-
-/* Grid area description start */
-    
-#iteml {
-    grid-area: il;
-} 
-    
-#itemv {
-    grid-area: iv;
-}
-    
-#itemp {
-    grid-area: ip;
-}
-
-#item1 {
-    grid-area: i1;
-}
-
-#item2 {
-    grid-area: i2;
-}
-
-#item3 {
-    grid-area: i3;
-}
-
-#item4 {
-    grid-area: i4;
-}
-
-#item5 {
-    grid-area: i5;
-}
-
-#item6 {
-    grid-area: i6;
-}
-
-#item7 {
-    grid-area: i7;
-}
-
-#itemb {
-    grid-area: ib;
-}
-    
-#sikker {
-    grid-area: sb;
-}
-    
-#fakta {
-    grid-area: fb;
 }    
-    
-#revb {
-    grid-area: rb;
-}        
-    
-#gbb {
-    grid-area: gb;
-}    
-    
-/* Grid area description end */    
     
 h1 {
     color: #046C44;
-    font-size: 5em;
+    font-size: 90px;
 }
 
 h2 {
     color: #046C44;
-    font-size: 3em;
+    font-size: 80px;
 }
 
 h3 {
     color: #046C44;
-    font-size: 2em;
+    font-size: 30px;
 }
 
 h4 {
     color: #046C44;
-    font-size: 1.5em;
+    font-size: 15px;
 }
 
 p {
     color: #046C44;
+    font-size: 35px;
 }
 
 .logo {
     max-width: 200px;
-    max-height: 150px;
+    max-height: 200px;
 }
 
-.home {
+.home > div {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
     background-size: cover;
     background-position: center;
+    padding-left: 10%;
+    padding-right: ;
     
     display: grid;
     grid-gap: 0px;
-    grid-template-columns: repeat (6, 1fr);
+    grid-template-columns: repeat (4, 1fr);
     grid-template-rows: repeat (6, 1fr);
     grid-template-areas:
-        "";
-} 
+        ". . . ."
+        "il il . ."
+        "hh hh hh ."
+        ". . . ."
+        ". . . ."
+        ". . . .";
+}  
 
-.product {
+.product > div {
     background-image: url(pictures/Vines_m.png);
     background-size: cover;
     background-position: center;
-    
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (6, 1fr);
-    grid-template-rows: repeat (6, 1fr);
-    grid-template-areas:
-        "";
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    align-content: center;
 }
 
 #video {
@@ -355,52 +333,51 @@ p {
     max-width: 95%;
 }
     
-.review {
+.review > div {
     background-image: url('pictures/Trees_m.png');
     background-size: cover;
     background-position: center;
-        
+    padding-left: 1%;
+    padding-right: ;
+    text-align: center;
+    align-content: center;
+    
     display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (6, 1fr);
+    grid-gap: 10px;
+    grid-template-columns: repeat (3, 1fr);
     grid-template-rows: repeat (6, 1fr);
     grid-template-areas:
-        "";
+        "rh rh ."
+        "i6 i3 i4"
+        "i5 ib i1"
+        "i2 ib i7"
+        ". rb ."
+        ". . .";
 }
 
 .bottle {
-    max-height: 50%;
-    max-width: 50%;
+    max-height: 80%;
+    max-width: 80%;
 }
 
 .material-icons {
     color: darkorange;
 }
     
-.miljo {
+.miljo > div {
     background-image: url('pictures/Primrose_m.png');
     background-size: cover;
     background-position: center;
-    
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (6, 1fr);
-    grid-template-rows: repeat (6, 1fr);
-    grid-template-areas:
-        "";
+    padding-left: 10%;
+    padding-right: 10%;
 }
     
-.gb {
+.gb > div {
     background-image: url('pictures/Sapling_m.png');
     background-size: cover;
     background-position: center;
-    
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (6, 1fr);
-    grid-template-rows: repeat (6, 1fr);
-    grid-template-areas:
-        "";
+    padding-left: 10%;
+    padding-right: 10%;
 }
     
 .button {
@@ -410,6 +387,8 @@ p {
     text-align: center;
     font-size: 20px;
     padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .button a {
@@ -441,200 +420,135 @@ li {
 
 /* Computer layout starts here */
 
-@media screen and (max-width: 4500px) {    
+@media only screen and (max-width: 4500px) and (min-width: 1701px) {    
 
 body {
     font-family: 'PT sans', sans-serif;
 	font-weight: 400;
     background-color: #e5e4e1;
 }
-
-/* Grid area description start */
-    
-#iteml {
-    grid-area: il;
-} 
-    
-#itemv {
-    grid-area: iv;
-}
-    
-#itemp {
-    grid-area: ip;
-}
-
-#item1 {
-    grid-area: i1;
-}
-
-#item2 {
-    grid-area: i2;
-}
-
-#item3 {
-    grid-area: i3;
-}
-
-#item4 {
-    grid-area: i4;
-}
-
-#item5 {
-    grid-area: i5;
-}
-
-#item6 {
-    grid-area: i6;
-}
-
-#item7 {
-    grid-area: i7;
-}
-
-#itemb {
-    grid-area: ib;
-}
-    
-#sikker {
-    grid-area: sb;
-}
-    
-#fakta {
-    grid-area: fb;
-}    
-    
-#revb {
-    grid-area: rb;
-}        
-    
-#gbb {
-    grid-area: gb;
-}
-    
-/* Grid area description end */    
     
 h1 {
     color: #046C44;
-    font-size: 5em;
+    font-size: 120px;
 }
 
 h2 {
     color: #046C44;
-    font-size: 3em;
+    font-size: 80px;
 }
 
 h3 {
     color: #046C44;
-    font-size: 1.5em;
+    font-size: 25px;
 }
 
 h4 {
     color: #046C44;
-    font-size: 1em;
+    font-size: 15px;
 }
 
 p {
     color: #046C44;
-    font-size: 22px;
+    font-size: 40px;
 }
 
 .logo {
     max-width: 200px;
-    max-height: 150px;
+    max-height: 200px;
 }
 
-.home {
+.home > div {
     background-image: url(pictures/Kul%C3%B8rt%20vask%20forst%C3%B8rret%20billede.jpg);
     background-size: cover;
     background-position: center;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 15%;
+    padding-right: 15%;
     
     display: grid;
     grid-gap: 0px;
     grid-template-columns: repeat (6, 1fr);
     grid-template-rows: repeat (6, 1fr);
     grid-template-areas:
+        ". . . . . ."
         "il il . . . ."
-        "il il . . . ."
-        "il il . . . ."
-        "il il . . . ."
-        "il il . . . ."
-        "il il . . . .";
+        "hh hh hh . . ."
+        ". . . . . ."
+        ". . . . . ."
+        ". . . . . .";
 }  
 
-.product {
+.product > div {
     background-image: url(pictures/Vines_m.png);
     background-size: cover;
     background-position: center;
-    padding-left: 300px;
-    padding-right: 300px;
-    
+    padding-left: ;
+    padding-right: ;
+    text-align: center;
+    align-content: center;
     display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (6, 1fr);
+    grid-gap: 1px;
+    grid-template-columns: repeat (5, 1fr);
     grid-template-rows: repeat (6, 1fr);
     grid-template-areas:
-        "";
+        ". . ph . ."
+        "iv iv iv iv iv"
+        ". pp pp pp ."
+        ". sb . fb ."
+        ". . . . ."
+        ". . . . .";
 }
 
 #video {
-    max-height: 65%;
-    max-width: 95%;
+    max-height: 100%;
+    max-width: 50%;
 }
     
-.review {
+.review > div {
     background-image: url('pictures/Trees_m.png');
     background-size: cover;
     background-position: center;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 1%;
+    padding-right: ;
+    text-align: center;
+    align-content: center;
     
     display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (6, 1fr);
+    grid-gap: 1px;
+    grid-template-columns: repeat (3, 1fr);
     grid-template-rows: repeat (6, 1fr);
     grid-template-areas:
-        "";
+        "rh . ."
+        "i5 ib i4"
+        "i7 ib i1"
+        "i2 i3 i6"
+        ". rb ."
+        ". . .";
 }
 
 .bottle {
-    max-height: 50%;
-    max-width: 50%;
+    max-height: 40%;
+    max-width: 40%;
 }
 
 .material-icons {
     color: darkorange;
 }
     
-.miljo {
+.miljo > div {
     background-image: url('pictures/Primrose_m.png');
     background-size: cover;
     background-position: center;
-    padding-left: 300px;
-    padding-right: 300px;
-    
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (6, 1fr);
-    grid-template-rows: repeat (6, 1fr);
-    grid-template-areas: 
-        "";
+    padding-left: 15%;
+    padding-right: 15%;
 }
     
-.gb {
+.gb > div {
     background-image: url('pictures/Sapling_m.png');
     background-size: cover;
     background-position: center;
-    padding-left: 300px;
-    padding-right: 300px;
-           
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat (6, 1fr);
-    grid-template-rows: repeat (6, 1fr);
-    grid-template-areas: 
-        "";
+    padding-left: 15%;
+    padding-right: 15%;
 }
     
 .button {
@@ -644,6 +558,8 @@ p {
     text-align: center;
     font-size: 20px;
     padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .button a {
@@ -657,7 +573,7 @@ span {
     background: #c50e68 !important;
 }
 
-li{
+li {
     margin-bottom: 2em !important;
     margin-right: 1em !important;
 }
